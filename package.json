@@ -1,0 +1,13 @@
+{
+  "name": "world-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check app.js && node --check cuisine.js && node --check audio.js && node --check stats.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
